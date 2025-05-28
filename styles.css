@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(36, 75, 107);
+    width: 100%;
+    height: 6rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px rgba(100, 100, 100, 0.192);
+}
+
+.header h1:hover{
+    font-size: 3rem;
+    cursor: pointer;
+    transform: all 0.3s ease;
+}
+
+.tareas-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+
+.pendientes-container{
+    padding: 3%;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(100, 100, 100, 0.192);
+    background-color: rgb(245, 243, 243);
+}
+
+.progreso-container{
+    padding: 3%;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(100, 100, 100, 0.192);
+    background-color: rgb(245, 243, 243);
+}
+
+.completadas-container{
+    padding: 3%;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(100, 100, 100, 0.192);
+    background-color: rgb(245, 243, 243);
+}
+
+.tareas-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.targetas{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(134, 134, 134, 0.192);
+}
+
+.targetas:hover{
+    cursor: pointer;
+    transform: translateY(-8 ease);
+    transition: all 0.3s ease;
+}
+
+.content{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    hr{
+        width: 90%;
+    }
+}
+
+#pendientes{
+    background-color: rgb(209, 208, 208);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#completadas{
+    background-color: rgb(98, 245, 98);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#proceso{
+    background-color: rgb(255, 168, 55);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.editar{
+    width: 5rem;
+    border-radius: 20px;
+    height: 2rem;
+    border: none;
+}
+
+#comedit{
+    background-color: greenyellow;
+}
+
+#comedit:hover{
+    background-color: rgb(1, 182, 1);
+}
+
+#procedit{
+    background-color: rgb(255, 251, 0);
+}
+
+#procedit:hover{
+    background-color: rgb(207, 137, 6);
+}
+
+#pendedit{
+    background-color: rgb(223, 223, 223);
+}
+
+#pendedit:hover{
+    background-color: rgb(75, 75, 75);
+}
+
+.addbutton{
+    border-radius: 10px;
+    width: 8rem;
+    height: 3rem;
+    background-color: rgb(36, 75, 107);
+    color: white;
+    font-size: 1.5rem;
+    cursor:  pointer;
+}
+
+.addcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.addbutton:hover{
+    border-radius: 10px;
+    width: 8rem;
+    height: 3rem;
+    background-color: rgb(20, 41, 58);
+    color: white;
+    font-size: 1.5rem;
+}
